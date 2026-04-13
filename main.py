@@ -6,6 +6,10 @@ def adicionar_tarefa():
     print("Tarefa adicionada!")
 
 def listar_tarefas():
+    if not tarefas:
+        print("Nenhuma tarefa cadastrada!")
+        return
+
     print("\nLista de tarefas:")
     for i, tarefa in enumerate(tarefas, start=1):
         print(f"{i}. {tarefa}")
