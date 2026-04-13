@@ -1,5 +1,3 @@
-# atividade-engsoftware
-
 # Gerenciador de Tarefas
 
 Projeto simples em Python feito para praticar Git e GitHub.
